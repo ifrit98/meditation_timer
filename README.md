@@ -1,4 +1,5 @@
 # meditation timer
+A random timer paramaterized by a gaussian distribution that doesn't show you how long the timer is.  Plays a gong sound upon completion of the randomly generated time.  The intent is to get your mind focused on being present and not on how much time is left.
 
 ## Installation
 1. Clone repo.
