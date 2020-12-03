@@ -1,4 +1,4 @@
-# randtimer
+# meditation timer
 
 ## Installation
 1. Clone repo.
