@@ -34,6 +34,13 @@ meditation_time = sample(mu, sigma)
 time.sleep(meditation_time)
 
 # End practice - 2x for effect
-print("End practice!")
+print("End of practice!")
 playsound(sound_path)
+time.sleep(1)
+playsound(sound_path)
+
+print("Great job!  Take a few breaths and come back into the room.")
+for i in reversed(range(5)):
+    print(i)
+    time.sleep(1)
 playsound(sound_path)
