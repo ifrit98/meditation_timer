@@ -5,9 +5,9 @@ from playsound import playsound
 
 if len(argv) < 5:
     lo = 180  # min 3 min
-    hi = 1200 # max 20 min
+    hi = 900  # 15 min #1200 # max 20 min
+    mu = abs(hi - lo) / 2  # 6 min
     sigma = 300 # variance sec ~ 5 min
-    mu = abs(hi - lo) / 2  # sec
 else:
     lo = int(argv[1])
     hi = int(argv[2])
@@ -36,11 +36,11 @@ time.sleep(meditation_time)
 # End practice - 2x for effect
 print("End of practice!")
 playsound(sound_path)
-time.sleep(1)
+time.sleep(s)
 playsound(sound_path)
 
 print("Great job!  Take a few breaths and come back into the room.")
-for i in reversed(range(5)):
+for i in reversed(range(8)):
     print(i)
     time.sleep(1)
 playsound(sound_path)
